@@ -35,7 +35,7 @@ data <- rbind(testdata, traindata)
 
 ## identify the indices of the columns/variables representing mean or standard deviation values
 colIndex <- c(1, 2, which(grepl("std", names(data)) | grepl("mean.", names(data)) & !grepl("meanFreq", names(data))))
-## extract the columns containign the mean and standard deviation for each measurement (along with the Activity and SubjectID columns)
+## extract the columns containing the mean and standard deviation for each measurement (along with the Activity and SubjectID columns)
 sdata <- data[colIndex]
 
 ## use the descriptive activity names to name the activities in the data set
