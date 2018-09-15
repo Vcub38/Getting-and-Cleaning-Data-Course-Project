@@ -17,7 +17,7 @@ The run_analysis.R file does the following:
   * the value 5 with the value "Standing" and 
   * the value 6 with the value "Laying"
 4. Appropriately labels the dataset with descriptive variable names by
-* reading the variable names from the features.txt file into R and assigning these values to be the variable names of the data coming from the "X_train.txt" and "X_test.txt" files. The following naming conventions are used in these variable names:
+* reading the variable names from the features.txt file into R and assigning these values to be the variable names of the data coming from the X_train.txt and X_test.txt files. The following naming conventions are used in these variable names:
   * "t" denotes a time domain signal, 
   * "BodyAcc" denotes body acceleration, 
   * "GravityAcc" denotes gravity acceleration, 
