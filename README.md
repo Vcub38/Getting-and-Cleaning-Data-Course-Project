@@ -27,7 +27,7 @@ The run_analysis.R file does the following:
   * "f" denotes frequency domain signals (i.e. Fast Fourier Transform was applied to the signal)
   * "X", "Y", and "Z" denote the X, Y, and Z directions, respectively
   * "std" denotes standard deviation 
-* assigning the variable name "Activity" to the column indicating the activity of the participant at the time the measurment was taken
+* assigning the variable name "Activity" to the column indicating the activity of the participant at the time the measurement was taken
 * assigning the variable name "SubjectID" to the column indicating the unique identifier for each subject 
 5. Creates a second, independent tidy dataset with the average of each activity and each subject by
 * installing and loading the dplyr package
