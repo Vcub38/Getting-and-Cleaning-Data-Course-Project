@@ -4,12 +4,18 @@ The run_analysis.R file does the following:
 1. Merges the traning and the test data to create one dataset by 
 * reading the training data into R from the files: X_train.txt, y_train.txt, subject_train.txt
 * reading the test data into R from the files: X_test.txt, y_test.txt, subject_test.txt
-* using R commands cbind() and rbind() to combine the data in all 6 of these data files
+* using R commands cbind() and rbind() to combine the data from all 6 of these data files
 2. Extracts only the mean and standard deviation for each measurement by
 * identifying the indicies of the columns containing mean or standard deviation values
 * subseting the dataset based on these indices, along with the Activity and SubjectID columns
 3. Uses descriptive activity names to name the activities in the dataset by
-* using the R command gsub() to replace every instance of the value 1 in the Activity column with the value "Walking", the value 2 with the value "Walking_Upstairs", the value 3 with the value "Walking_Downstairs", the value 4 with the value "Sitting", the value 5 with the value "Standing" and the value 6 with the value "Laying"
+* using the R command gsub() to replace every instance of 
+  * the value 1 in the Activity column with the value "Walking", 
+  * the value 2 with the value "Walking_Upstairs", 
+  * the value 3 with the value "Walking_Downstairs", 
+  * the value 4 with the value "Sitting", 
+  * the value 5 with the value "Standing" and 
+  * the value 6 with the value "Laying"
 4. Appropriately labels the dataset with descriptive variable names by
 * reading the variable names from the features.txt file into R and assigning these values to be the variable names of the data coming from the "X_train.txt" and "X_test.txt" files. The following naming conventions are used in these variable names:
   * "t" denotes a time domain signal, 
