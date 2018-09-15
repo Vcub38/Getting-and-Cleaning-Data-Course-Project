@@ -6,7 +6,7 @@ The run_analysis.R file does the following:
 * reading the test data into R from the files: X_test.txt, y_test.txt, subject_test.txt
 * using R commands cbind() and rbind() to combine the data from all 6 of these data files
 2. Extracts only the mean and standard deviation for each measurement by
-* identifying the indicies of the columns containing mean or standard deviation values
+* identifying the indices of the columns containing mean or standard deviation values
 * subseting the dataset based on these indices, along with the Activity and SubjectID columns
 3. Uses descriptive activity names to name the activities in the dataset by
 * using the R command gsub() to replace every instance of 
